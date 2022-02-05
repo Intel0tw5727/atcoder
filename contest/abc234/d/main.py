@@ -1,6 +1,5 @@
 def main():
     import sys
-    readline = sys.stdin.readline
 
     n, k = map(int, input().split()) 
     p = list(map(int, input().split()))
