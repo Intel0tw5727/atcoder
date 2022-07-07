@@ -14,6 +14,9 @@ from operator import itemgetter # 多重リストの列指定ソートが可能(
 
 from sys import exit, stdin, setrecursionlimit
 
+# 二項係数 n_C_r の計算
+def binomial(n, r):
+    return factorial(n) // factorial(r) // factorial(n-r)
 
 def main():
     ## 各種変数
